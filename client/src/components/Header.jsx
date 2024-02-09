@@ -69,11 +69,10 @@ export default function Header() {
           className="hidden lg:inline cursor-pointers"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          onClick={() => navigate("/search")}
         />
       </form>
       <Button className="w-12 h-10 lg:hidden" color="gray" pill>
-        <AiOutlineSearch />
+        <AiOutlineSearch onClick={() => navigate("/search")} />
       </Button>
       <div className="flex gap-2 md:order-2 ">
         <Button
