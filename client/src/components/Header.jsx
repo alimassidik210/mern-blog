@@ -69,6 +69,7 @@ export default function Header() {
           className="hidden lg:inline"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          onClick={() => navigate("/search")}
         />
       </form>
       <Button className="w-12 h-10 lg:hidden" color="gray" pill>
