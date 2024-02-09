@@ -1,5 +1,16 @@
 import React from "react";
+import CallToAction from "../components/CallToAction";
 
 export default function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div className="min-h-screen max-w-2xl mx-auto flex flex-col items-center justify-center gap-6 p-3">
+      <h1 className="text-3xl font-semibold">Projects</h1>
+      <p className="text-md text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et culpa
+        quia quas maxime vero? Repellendus esse quod officia repellat, ipsa
+        illum, ipsam libero ex mollitia accusamus ut blanditiis tenetur.
+      </p>
+      <CallToAction />
+    </div>
+  );
 }
