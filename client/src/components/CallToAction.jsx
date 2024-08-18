@@ -25,7 +25,7 @@ export default function CallToAction() {
       <div className="p-7 flex-1 flex justify-center">
         <img
           src="https://responsive-portofolio-alim.vercel.app/assets/img/profil-1.png"
-          style={{ width: "300px" }}
+          style={{ width: "200px" }}
         />
       </div>
     </div>
