@@ -25,7 +25,13 @@ export default function CallToAction() {
       <div className="p-7 flex-1 flex justify-center">
         <img
           src="https://responsive-portofolio-alim.vercel.app/assets/img/profil-1.png"
-          style={{ width: "200px" }}
+          style={{
+            width: "200px",
+            width: "220px",
+            justifySelf: "center",
+            maskImage:
+              "linear-gradient(to bottom, hsla(230, 40%, 16%) 60%, transparent 100%)",
+          }}
         />
       </div>
     </div>
