@@ -10,22 +10,39 @@ export default function About() {
           </h1>
           <div className="flex flex-col gap-6 text-md text-gray-500">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod
-              doloremque recusandae commodi, reiciendis architecto inventore! Et
-              quidem dignissimos quibusdam eaque incidunt inventore ut quisquam
-              cupiditate molestias quaerat? Eos, ad!
+              Liqooo's Blog adalah sebuah platform yang didedikasikan untuk
+              menyajikan artikel-artikel Islami yang mendalam dan bermanfaat.
+              Web ini dibuat oleh{" "}
+              <span className="font-bold ">
+                <a
+                  href="https://responsive-portofolio-alim.vercel.app/"
+                  target="_blank"
+                >
+                  Alim Assidik
+                </a>
+              </span>{" "}
+              dan berfokus pada penyampaian ilmu yang murni dan autentik,
+              berlandaskan pada Al-Quran dan Sunnah dengan mengikuti pemahaman
+              para Salafus Salih. Setiap artikel yang dipublikasikan di blog ini
+              dirancang untuk membantu pembaca dalam memperdalam pemahaman
+              mereka tentang Islam yang benar dan lurus.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              impedit commodi dolores, fugit sint rerum eligendi, perspiciatis
-              modi, doloribus id aliquam neque consectetur minus! Vero
-              voluptates eius doloribus nisi veniam!
+              Melalui Liqooo's Blog, tujuan utamanya adalah untuk memberikan
+              wawasan yang jelas dan praktis tentang berbagai cabang ilmu Islam,
+              mulai dari aqidah, fiqih, hingga adab dan akhlak. Semua konten
+              yang disajikan disusun dengan teliti dan penuh kehati-hatian, agar
+              setiap informasi yang diterima pembaca benar-benar sesuai dengan
+              ajaran Islam yang asli, sebagaimana yang dipahami oleh generasi
+              pertama umat Islam.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum est
-              dicta totam recusandae dolore tempore maiores praesentium
-              provident, ipsa debitis incidunt expedita libero fugit, at eos
-              aliquam vero ratione? Quia!
+              Dengan visi untuk menjadi sumber ilmu yang dapat diandalkan,
+              Liqooo's Blog terus berusaha menghadirkan artikel-artikel yang
+              relevan dengan kebutuhan umat Islam masa kini. Pembaca diajak
+              untuk tidak hanya membaca, tetapi juga merenungkan dan mengamalkan
+              ajaran-ajaran yang disampaikan, demi mencapai kehidupan yang lebih
+              baik dan diridhai oleh Allah SWT.
             </p>
           </div>
         </div>

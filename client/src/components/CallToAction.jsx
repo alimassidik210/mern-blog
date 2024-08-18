@@ -5,25 +5,28 @@ export default function CallToAction() {
   return (
     <div className="flex flex-col sm:flex-row p-3 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center">
       <div className="flex-1 justify-center flex flex-col">
-        <h2 className="text-2xl">Ingin fokus belajar Al Qur'an ?</h2>
+        <h2 className="text-2xl">Ingin menjadi penulis di web kami</h2>
         <p className="text-gray-500 my-2">
-          Klik Gerakan belajar membaca Al Qur'an
+          Klik tombol ini untuk menghubungi pemilik web ini
         </p>
         <Button
           gradientDuoTone={"purpleToPink"}
           className="rounded-tl-xl rounded-bl-none"
         >
           <a
-            href="https://www.google.com"
+            href="https://wa.me/6281934572861?text=assalamualaikum liqooo's blog"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ayo Gabung jadi penulis di web kami
+            Ayo Gabung jadi penulis di Liqooo's Blog
           </a>
         </Button>
       </div>
       <div className="p-7 flex-1 flex justify-center">
-        <img src="https://media.licdn.com/dms/image/C5603AQHCkcdF5ilzJw/profile-displayphoto-shrink_200_200/0/1595170055454?e=2147483647&v=beta&t=wU-8Ed3X8_nkrSiPhfOuFycEMPSXxhUKOKf3yhl6_B8" />
+        <img
+          src="https://responsive-portofolio-alim.vercel.app/assets/img/profil-1.png"
+          style={{ width: "300px" }}
+        />
       </div>
     </div>
   );
